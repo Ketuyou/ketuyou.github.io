@@ -1,0 +1,13 @@
+title : 大咩咩咩子
+tagline: 咩子的自习小抄本
+author :
+  name : 杨洁
+  email : ketuyou@gmail.com
+  github : ketuyou
+  twitter : username
+  feedburner : feedname
+
+paginate: 4 # 指定每页多少条
+paginate_path: "page:num" # 指定每页的url
+production_url: ketuyou.github.io
+ASSET_PATH: /assets

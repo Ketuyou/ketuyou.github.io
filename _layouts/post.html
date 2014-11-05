@@ -1,0 +1,42 @@
+<html>
+   <head>
+    	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    	<title>{{ page.title }}</title>
+    	{% if page.description %}
+    		<meta name="description" content="{{ page.description }}">
+    	{% endif %}
+    	<meta name="author" content="{{ site.author.name }}">
+    	<link href="/assets/css/reset.css" rel="stylesheet" type="text/css" media="all">
+    	<link href="/assets/css/main.css" rel="stylesheet" type="text/css" media="all">
+	</head>
+	<body>
+	<div class="wrap">
+		<section class="content">
+			<header class="con_hd clearfix">这里高兴放什么就放什么~</header>
+			<article class="post post_text">
+				<h2>{{ page.title }}</h2>
+				<section class="descript">{{ content }}</section>
+				<p class="date">{{ page.date | date_to_string }}</p>
+			</article>
+		</section>
+		<!-- 多说评论框 start -->
+			<div class="ds-thread" data-thread-key="{{ page.url }}" data-title="{{ page.title }}" data-url="{{ page.url }}"></div>
+		<!-- 多说评论框 end -->
+		<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+		<script type="text/javascript">
+		var duoshuoQuery = {short_name:"ketuyou"};
+			(function() {
+				var ds = document.createElement('script');
+				ds.type = 'text/javascript';ds.async = true;
+				ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+				ds.charset = 'UTF-8';
+				(document.getElementsByTagName('head')[0] 
+				 || document.getElementsByTagName('body')[0]).appendChild(ds);
+			})();
+			</script>
+		<!-- 多说公共JS代码 end -->
+	</div>
+	{% include header.html %}
+	{% include footer.html %}
+	</body>
+<html>
