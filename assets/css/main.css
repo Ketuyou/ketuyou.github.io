@@ -61,6 +61,11 @@ body {
     border-left: 3px solid #999;
     padding-left: 10px;
 }
+.content .post pre {
+    border-width: 0;
+    padding: 10px 15px;
+    background: none repeat scroll 0 0 rgba(102,128,153,.05);
+}
 .content .post pre code {
     padding: 0;
     color: inherit;
