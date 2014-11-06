@@ -61,6 +61,14 @@ body {
     border-left: 3px solid #999;
     padding-left: 10px;
 }
+.content .post pre code {
+    padding: 0;
+    color: inherit;
+    white-space: pre;
+    white-space: pre-wrap;
+    background-color: transparent;
+    border: 0;
+}
 .content .post_text .summary {
     margin-bottom: 15px;
     font-size: 14px;
