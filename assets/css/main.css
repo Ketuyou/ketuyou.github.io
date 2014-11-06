@@ -6,8 +6,11 @@ body {
     line-height: 20px;
     word-wrap: break-word;
 }
+code{
+    font-family:Monaco, Menlo, Consolas, 'Courier New', monospace;
+}
 .wrap{
-	position: relative;
+    position: relative;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -18,20 +21,20 @@ body {
     height: auto;
 }
 .content .con_hd {
-	font-size: 24px;
-	font-weight: 400;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	line-height: 30px;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    line-height: 30px;
 }
 .content .con_hd,.content .post,.content .page_nav,.ds-thread {
-	margin-right: auto;
-	margin-bottom: 30px;
-	margin-left: auto;
-	padding-bottom: 15px;
-	width: 610px;
-	border-bottom: 1px solid #cccccc;
-	overflow: hidden;
+    margin-right: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
+    padding-bottom: 15px;
+    width: 610px;
+    border-bottom: 1px solid #cccccc;
+    overflow: hidden;
 }
 .content .post h2 {
     margin-bottom: 10px;
@@ -41,7 +44,7 @@ body {
     line-height: 30px
 }
 .content .post .descript,.content .post .date,.content .post .arc_list {
-	float: left;
+    float: left;
     margin-right: 15px;
     font-size: 14px;
     line-height: 24px;
