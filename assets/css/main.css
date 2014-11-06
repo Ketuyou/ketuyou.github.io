@@ -43,7 +43,7 @@ body {
 .content .post .descript,.content .post .date,.content .post .arc_list {
 	float: left;
     margin-right: 15px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 24px;
 }
 .content .post .descript a,.content .post .date{
