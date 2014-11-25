@@ -5,12 +5,11 @@ category : css
 ---
 ### 单行文字垂直居中
 
-```html
-<div class="demo">我们来看看这行文字是不是垂直居中。</div>
-```
-```css
-.demo{ line-height:28px; height:28px;}
-```
+    <div class="demo">我们来看看这行文字是不是垂直居中。</div>
+    
+
+    .demo{ line-height:28px; height:28px;}
+
 
 <!--break-->
 
