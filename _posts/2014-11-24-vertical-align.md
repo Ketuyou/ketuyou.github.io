@@ -11,7 +11,7 @@ category : css
 ```css
 .demo{ line-height:28px; height:28px;}
 ```
-
+<!--break-->
 
 ### 父元素高度固定多行文字垂直居中（模拟表格）
 
