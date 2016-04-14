@@ -129,11 +129,11 @@ code{
     height: 48px;
 }
 
-.sidebar nav li:hover {
+/*.sidebar nav li:hover {
     background: #545454;
     background: rgba(34,34,34,0.25);
     -ms-filter: alpha(opacity:25);
-}
+}*/
 
 .sidebar nav li a {
     display: block;
