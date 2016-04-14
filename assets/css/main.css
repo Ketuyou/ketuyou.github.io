@@ -118,14 +118,14 @@ code{
 }
 .sidebar nav {
     overflow: hidden;
-    border-bottom: 1px solid #222222;
-    border-bottom: 1px solid rgba(34,34,34,0.5);
+/*    border-bottom: 1px solid #222222;
+    border-bottom: 1px solid rgba(34,34,34,0.5);*/
     padding-top: 30px
 }
 
 .sidebar nav li {
-    border-top: 1px solid #222222;
-    border-top: 1px solid rgba(34,34,34,0.5);
+/*    border-top: 1px solid #222222;
+    border-top: 1px solid rgba(34,34,34,0.5);*/
     height: 48px;
 }
 
