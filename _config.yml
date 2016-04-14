@@ -7,7 +7,7 @@ author :
   twitter : username
   feedburner : feedname
 
-paginate: 4 # 指定每页多少条
+paginate: 10 # 指定每页多少条
 paginate_path: "page:num" # 指定每页的url
 production_url: ketuyou.github.io
 ASSET_PATH: /assets
